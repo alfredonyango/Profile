@@ -1,0 +1,740 @@
+<!DOCTYPE HTML>
+
+
+
+
+
+<html>
+
+
+<style>
+
+
+#container {
+
+
+width: 400px;
+
+
+height: 400px;
+
+
+position: relative;
+
+
+background: yellow;
+
+
+}
+
+
+#animate {
+
+
+width: 50px;
+
+
+height: 50px;
+
+
+position: absolute;
+
+
+background-color: red;
+
+
+}
+
+
+</style>
+
+
+<body>
+
+
+
+
+
+<script>
+
+
+function myMove() {
+
+
+var elem = document.getElementById("animate"); 
+
+
+var pos = 0;
+
+
+var id = setInterval(frame, 5);
+
+
+function frame() {
+
+
+if (pos == 350) {
+
+
+clearInterval(id);
+
+
+} else {
+
+
+pos++; 
+
+
+elem.style.top = pos + 'px'; 
+
+
+elem.style.left = pos + 'px'; 
+
+
+}
+
+
+}
+
+
+}
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+<style>
+
+
+#container {
+
+
+width: 400px;
+
+
+height: 400px;
+
+
+position: relative;
+
+
+background: yellow;
+
+
+}
+
+
+#animate {
+
+
+width: 50px;
+
+
+height: 50px;
+
+
+position: absolute;
+
+
+background-color: red;
+
+
+}
+
+
+</style>
+
+
+<body>
+
+
+
+
+
+<p>
+
+
+<button onclick="myMove()">Click Me</button>
+
+
+</p> 
+
+
+
+
+
+<div id ="container">
+
+
+<div id ="animate"></div>
+
+
+</div>
+
+
+
+
+
+<script>
+
+
+function myMove() {
+
+
+var elem = document.getElementById("animate"); 
+
+
+var pos = 0;
+
+
+var id = setInterval(frame, 5);
+
+
+function frame() {
+
+
+if (pos == 350) {
+
+
+clearInterval(id);
+
+
+} else {
+
+
+pos++; 
+
+
+elem.style.top = pos + 'px'; 
+
+
+elem.style.left = pos + 'px'; 
+
+
+}
+
+
+}
+
+
+}
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+<head>
+
+
+<meta charset="uft-8"/>
+
+
+<title>misfit Personal profile </title>
+
+
+<style>
+
+
+body {
+
+
+background-color: lightblue;
+
+
+}
+
+
+
+
+
+div {
+
+
+background-color: lightgrey;
+
+
+width: 300px;
+
+
+padding: 25px;
+
+
+border: 25px solid navy;
+
+
+margin: 25px;
+
+
+}
+
+
+</style>
+
+
+<style>
+
+
+img {
+
+
+float: right;
+
+
+margin: 0 0 10px 10px;
+
+
+}
+
+
+</style>
+
+
+<style>
+
+
+div.img {
+
+
+margin: 5px;
+
+
+border: 1px solid #ccc;
+
+
+float: left;
+
+
+width: 180px;
+
+
+}
+
+
+
+
+
+div.img:hover {
+
+
+border: 1px solid #777;
+
+
+}
+
+
+
+
+
+div.img img {
+
+
+width: 100%;
+
+
+height: auto;
+
+
+}
+
+
+
+
+
+div.desc {
+
+
+padding: 15px;
+
+
+text-align: center;
+
+
+}
+
+
+</style>
+
+
+</head>
+
+
+</html>
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+<header>
+
+
+<img src="http://www.oktoberfestobliteration.com/wp-content/uploads/2013/10/Against-All-Odds-Fitness-Logo-proof-2.jpg" style="width:100%;height:250;" alt="fitnesslogo">
+
+
+</header>
+
+
+<form>
+
+
+<input type="text" name="lastname">
+
+
+<input type="radio" name="gender" value="male" checked> Male<br>
+
+
+<input type="radio" name="gender" value="female"> Female<br>
+
+
+<input type="radio" name="gender" value="other"> Other<br>
+
+
+<form action="action_page.php">
+
+
+<fieldset>
+
+
+<legend>Personal information:</legend>
+
+
+First name:<br>
+
+
+<input type="text" name="firstname" value=""><br>
+
+
+Last name:<br>
+
+
+<input type="text" name="lastname" value=""><br><br>
+
+
+<input type="submit" value="Submit">
+
+
+</fieldset>
+
+
+</form>
+
+
+<style>
+
+
+header {
+
+
+background-color:black;
+
+
+color:white;
+
+
+text-align:center;
+
+
+padding:5px; 
+
+
+}
+
+
+nav {
+
+
+line-height:30px;
+
+
+background-color:#eeeeee;
+
+
+height:300px;
+
+
+width:100px;
+
+
+float:left;
+
+
+padding:5px; 
+
+
+}
+
+
+section {
+
+
+width:350px;
+
+
+float:left;
+
+
+padding:10px; 
+
+
+}
+
+
+footer {
+
+
+background-color:black;
+
+
+color:white;
+
+
+clear:both;
+
+
+text-align:center;
+
+
+padding:5px; 
+
+
+}
+
+
+</style>
+
+
+
+
+
+<div id="header">
+
+
+<h1>City Gallery</h1>
+
+
+</div>
+
+
+<style> 
+
+
+#myDIV {
+
+
+width: 300px;
+
+
+height: 200px;
+
+
+background: red;
+
+
+-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+
+
+animation: mymove 5s infinite;
+
+
+}
+
+
+
+
+
+/* Chrome, Safari, Opera */
+
+
+@-webkit-keyframes mymove {
+
+
+from {background-color: red;}
+
+
+to {background-color: blue;}
+
+
+}
+
+
+
+
+
+/* Standard syntax */
+
+
+@keyframes mymove {
+
+
+from {background-color: red;}
+
+
+to {background-color: blue;}
+
+
+}
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div id="myDIV"></div>
+
+
+
+
+
+<div id="nav">
+
+
+KENYA<br>
+
+
+TANZANIA<br>
+
+
+BURUNDI<br>
+
+
+UGANDA<br>
+
+
+RWANDA<br>
+
+
+</div>
+
+
+
+
+
+<div id="section">
+
+
+<h1>KENYA</h1>
+
+
+<p>Improve Your Quality Of Life
+
+
+There are many benefits of regular exercise and physical activity such as risk reduction of having a heart attack, <br>
+
+
+diabetes, high cholesterol, blood pressure, or reduction of bone density.<br>
+
+
+Beyond these health related factors, a sound fitness program may help improve other intangibles like your overall self-confidence,<br>
+
+
+mental focus, energy levels, and overall quality of life (i.e.keeping up with the kids and intimacy with your significant other).</p>
+
+
+</div>
+
+
+
+
+
+<div id="footer">
+
+
+Copyright © MISFIT.COM
+
+
+</div>
+
+
+
+
+
+<section>
+
+
+<article>
+
+
+<p>
+
+
+<h2></h2>ABOUT ME</h2>
+
+
+My passion for fitness began with my own life experience back in 2010 as i completed highschool.<br>
+
+
+Like many young people, I thought I could eat anything I wanted and not be affected until my bad habit of consuming a lot of foods caught up with me as my clothes began to fit more snug than I was comfortable with. Besides having an expanding waistline, I was frequently tired and maintained a low energy level and required the assistance of 5 Hour Energy drinks to give me the boost I needed to make it through the day. Up until this point, healthy eating and physical activity never crossed my mind, and I had no clue (because I was uneducated) that my body was behaving in the manner that it was because I was not caring for it appropriately. A pair of pants ripping while bending over to put on my shoes marked the beginning of my fitness journey toward a new me. Because I desired to look and feel better, I was compelled to find the answers about how to do just that.<br>
+
+
+But finding the right answers usually start with asking the right questions. In the beginning, I wanted to know how I could lose weight fast, so the only answers I cared to receive were of the quick results variety. I tried several of the popular weight loss fads that included juicing, colon cleanses, and various diets. I never asked if these methods were safe, effective long-term, or appropriate for my goals. I also did not ask if it was ok for me to continue eating foods that put the pounds on in the first place. You see, I wanted to experience a change without changing. I wanted these weight loss gimmicks to shed pounds off me without the need for me to give up the sweets I enjoyed or requiring that I engage in any physical activity. In other words, I wanted to remain complacent and stuck in who I was and take short-cuts and cheat the process. This was just the beginning of my journey and though I had a desire for change in my life, that desire was not yet strong enough because I continued to do the things that jeopardized any hope I had for weight loss.<br>
+
+
+The quick results tactics were not the answer and proved ineffective.</p>
+
+
+
+
+
+
+
+
+<p>you can put <a href="/githubkillfit/killian.html"> Your subscription to JOIN THE FITNESS LIFESYLE has been confirmed.For your records, here is a copy of the information you submitted to us.Email Address: Killianbrayan@gmail.com/>
+
+
+<br>First Name: ****** <br>
+
+
+<br>Last Name: ******<br>
+
+
+<br>If at any time you wish to stop receiving our emails AND MORE INFORMATION, you can:<br>
+
+
+unsubscribe here<br>
+
+
+You may also contact us at:<br>
+
+
+Killianbrayan@gmail.com </a>
+
+
+
+
+
+</article> 
+
+
+</section>
+
+
+
+
+
+</body>
+
+</html>
+
+
